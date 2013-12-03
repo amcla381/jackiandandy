@@ -5227,8 +5227,8 @@ a.list-group-item.active > .badge,
 .jumbotron {
   padding: 30px;
   margin-bottom: 0px;
-  font-size: 21px;
-  font-weight: 200;
+  font-size: medium;
+  font-weight: 300;
   line-height: 2.1428571435;
   color: inherit;
   background-color: #ff785d;
@@ -5262,7 +5262,7 @@ a.list-group-item.active > .badge,
   background-color: #FFC48C;
 }
 
-#accomodations {
+#accommodations {
   padding-top: 30px;
   padding-bottom: 30px;
   color: inherit;
