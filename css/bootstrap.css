@@ -469,6 +469,16 @@ cite {
   text-align: center;
 }
 
+.icontext {
+  display: block;	
+	
+}
+
+.bigheader {
+  font-size: 40px;
+	
+}
+
 h1,
 h2,
 h3,
