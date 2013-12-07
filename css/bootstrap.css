@@ -5266,10 +5266,10 @@ a.list-group-item.active > .badge,
 }
 
 #directions {
+  background-color: #FFC48C;
   padding-top: 30px;
   padding-bottom: 30px;
   color: inherit;
-  background-color: #FFC48C;
 }
 
 #accommodations {
