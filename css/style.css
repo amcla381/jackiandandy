@@ -3,6 +3,12 @@ body {
   padding-bottom: 20px;
 }
 
+
+h1, h2, h3{
+  font-family: 'Bad Script', cursive;
+}
+
+
 #ourstory {
   padding-top: 30px;
   padding-bottom: 30px;
