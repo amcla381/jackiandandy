@@ -17,6 +17,19 @@ body {
   background-color: #F4DEC2;
 }
 
+.wp-container{
+  margin-bottom: 50px;
+}
+
+.wp-container h3{
+  text-align: center;
+}
+
+.wp-pic{
+  width: 100%;
+  height: 100%;
+}
+
 #directions {
   background-color: #FFC48C;
   padding-top: 30px;
@@ -37,4 +50,3 @@ body {
   color: inherit;
   background-color: #F4DEC2;
 }
-
