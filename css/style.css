@@ -8,6 +8,24 @@ h1, h2, h3{
   font-family: 'Bad Script', cursive;
 }
 
+h1{
+  font-weight: bolder;
+}
+
+#welcome {
+  background-image: url(../images/originals/rh_jackiandy_lo.jpg);
+  background-size: 100%;
+  background-repeat: none;
+  color: white;
+  back
+}
+
+@media (max-width: 1100px){
+  #welcome{
+    background-size: 1300px;
+    background-position-x: -150px;
+  }
+}
 
 #ourstory {
   padding-top: 30px;
