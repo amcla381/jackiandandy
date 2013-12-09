@@ -1,0 +1,40 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#ourstory {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: inherit;
+  background-color: #FF9F80;
+}
+
+#weddingparty {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: inherit;
+  background-color: #F4DEC2;
+}
+
+#directions {
+  background-color: #FFC48C;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: inherit;
+}
+
+#accommodations {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: inherit;
+  background-color: #FF9F80;
+}
+
+#registry {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: inherit;
+  background-color: #F4DEC2;
+}
+
