@@ -14,15 +14,18 @@ h1{
   font-weight: bolder;
 }
 
-#nav {
-  background-color: #E1D5BC;
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
 }
 
-div.flower {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-image: url(../images/flower_border.png);
-  background-repeat: no-repeat;
+#nav {
+  background-color: #E1D5BC;
 }
 
 #welcome {
@@ -80,7 +83,6 @@ div.flower {
   padding-top: 30px;
   padding-bottom: 30px;
   color: inherit;
-  background-color: #E1D5BC;
 }
 
 iframe, object, embed {
