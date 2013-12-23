@@ -5241,7 +5241,7 @@ a.list-group-item.active > .badge,
   font-weight: 300;
   line-height: 2.1428571435;
   color: inherit;
-  background-color: #ff785d;
+  background-color: transparent;
 }
 
 #welcome {
