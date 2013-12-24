@@ -12,6 +12,8 @@ h1, h2, h3{
 
 h1{
   font-weight: bolder;
+  margin-top: 50px;
+  margin-bottom: 20px
 }
 
 hr {
@@ -22,6 +24,15 @@ hr {
     background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
     background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
     background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+}
+
+p {
+	background-color: #F0F5F4;
+}
+
+.highlight {
+	background-color: #F0F5F4;
+
 }
 
 #nav {
