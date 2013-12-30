@@ -25,6 +25,20 @@
     <!-- GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
     
+    <!-- FlexSlider2 -->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+		$(window).load(function() {
+		  $('.flexslider').flexslider({
+		    animation: "slide",
+		    animationLoop: true,
+		    itemWidth: 210,
+		    itemMargin: 5
+		  });
+		});
+  	</script>
+    
   </head>
 
   <body>
@@ -42,11 +56,11 @@
         </div>
         <div class="navbar-collapse collapse">
         	<ul class="nav navbar-nav">
-			  <li><a class="scroll" data-speed="500" data-easing="easeInOutCubic" href="#welcome">Welcome</a></li>	
 			  <li><a class="scroll" data-speed="500" data-easing="easeInOutCubic" href="#ourstory">Our Story</a></li>
 			  <li><a class="scroll" data-speed="500" data-easing="easeInOutCubic" href="#weddingparty">Wedding Party</a></li>
 			  <li><a class="scroll" data-speed="500" data-easing="easeInOutCubic" href="#directions">Directions</a></li>
-			  <li><a class="scroll" data-speed="500" data-easing="easeInOutCubic" href="#accommodations">Accommodations</a></li>
+			  <li><a class="scroll" data-speed="500" data-easing="easeInOutCubic" href="#lodging">Lodging</a></li>
+			  <li><a class="scroll" data-speed="500" data-easing="easeInOutCubic" href="#todo">To Do</a></li>
 			  <li><a class="scroll" data-speed="500" data-easing="easeInOutCubic" href="#registry">Registry</a></li>
 			</ul>
         </div><!-- /.navbar-collapse -->
@@ -71,6 +85,99 @@
       </div>
     </div>
     
+    <!-- Image Carosel Slider -->
+	    <div class="flexslider">
+		  <ul class="slides">
+		    <li>
+		      <img src="images/carosel/ja1.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja2.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja3.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja4.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja5.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja6.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja7.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja8.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja9.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja10.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja11.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja12.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja13.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja14.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja15.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja16.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja17.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja18.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja19.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja20.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja21.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja22.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja23.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja24.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja25.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja26.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja27.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja28.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/carosel/ja29.jpg" />
+		    </li>
+		  </ul>
+	    </div>    
+    
     <!-- FLOWER IMAGE -->
     <div class="container">
       <div class="row">
@@ -84,7 +191,6 @@
     <div class="jumbotron" id="weddingparty">
       <div class="container">
         <h1>Wedding Party</h1>
-        <h3>click on a mug!</h3>
         <div class="row">
           <div class="col-sm-3 wp-container">
           <a class="pop" data-toggle="popover" data-placement="top" data-title="Andrea" data-content="Infectious smile... High school friend... Beer bong... Sincere... New mama...">
@@ -165,7 +271,12 @@
           <a class="pop" data-toggle="popover" data-placement="top" data-title="Jet & Coal" data-content="Sons... LBDs... Egyptian Schipperke... Yoda... Woof...">
             <img class="wp-pic img-circle" src="images/weddingparty/sq_jet-coal.jpg">
             <h3>Jet & Coal</h3></a>
-          </div>           
+          </div>
+          <div class="col-sm-3 wp-container">
+          <a class="pop" data-toggle="popover" data-placement="top" data-title="Abby" data-content="">
+            <img class="wp-pic img-circle" src="images/weddingparty/sq_abby.jpg">
+            <h3>Abby</h3></a>
+          </div>            
         </div>
       </div>
     </div>	
@@ -235,8 +346,8 @@
       </div>
     </div>
     
-    <!-- ACCOMODATIONS -->
-    <div class="jumbotron" id="accommodations">
+    <!-- LODGING -->
+    <div class="jumbotron" id="lodging">
       <div class="container">
         <h1>Roche Harbor Accommodations</h1>
           <p>Roche Harbor offers a variety of accommodations. For reservations, please call <strong>(800) 451-8910</strong> and let them know that you are with the <strong>Davis 2014 wedding block</strong>. All prices are per night.</p>
@@ -292,6 +403,23 @@
       </div>
     </div>
     
+    <!-- TODO -->	
+    <div class="jumbotron" id="todo">
+      <div class="container">
+        <h1>Things to do while you're here...</h1>
+        <p>DIY typewriter locavore occupy roof party viral, forage you probably haven't heard of them keffiyeh sed. Excepteur scenester sunt, post-ironic Terry Richardson Pinterest twee semiotics magna ugh flannel butcher 3 wolf moon. Ugh ennui nostrud, PBR&B literally cornhole yr VHS YOLO forage ea magna 90's. Ea eu mustache locavore messenger bag. PBR biodiesel Vice, Pitchfork cornhole single-origin coffee magna cred commodo authentic synth farm-to-table seitan vinyl. Eu try-hard roof party actually, paleo fixie biodiesel occaecat. Synth ad adipisicing McSweeney's trust fund raw denim roof party, sartorial gastropub cornhole High Life delectus placeat dolor.</p>
+      </div>
+    </div>
+    
+    <!-- FLOWER IMAGE -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <img class="img-responsive" src="images/flower_border.png">
+        </div>
+      </div>
+    </div>	
+    
     <!-- REGISTRY -->	
     <div class="jumbotron" id="registry">
       <div class="container">
@@ -312,6 +440,7 @@
 
     <!-- SmoothScrolling -->
     <script src="js/smooth-scroll.js"></script>
+  
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

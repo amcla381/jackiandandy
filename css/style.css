@@ -36,7 +36,7 @@ p {
 }
 
 #nav {
-  background-color: #E1D5BC;
+  background-color: #EDB8A5;
 }
 
 #welcome {
@@ -84,13 +84,19 @@ p {
   color: inherit;
 }
 
-#accommodations {
+#lodging {
   padding-top: 30px;
   padding-bottom: 30px;
   color: inherit;
 }
 
 #registry {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: inherit;
+}
+
+#todo {
   padding-top: 30px;
   padding-bottom: 30px;
   color: inherit;
