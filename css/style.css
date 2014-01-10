@@ -67,7 +67,9 @@ p {
 
 .wp-container{
   margin-bottom: 50px;
+  cursor: pointer;
 }
+
 
 .wp-container h3{
   text-align: center;
@@ -76,6 +78,19 @@ p {
 .wp-pic{
   width: 100%;
   height: 100%;
+   -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.wp-pic:hover{
+  -webkit-transform: rotate(-360deg);
+     -moz-transform: rotate(-360deg);
+       -o-transform: rotate(-360deg);
+      -ms-transform: rotate(-360deg);
+          transform: rotate(-360deg);
 }
 
 #directions {
