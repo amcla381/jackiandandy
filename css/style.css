@@ -35,6 +35,11 @@ p {
 
 }
 
+.imgborder {
+	border: #EDB8A5;
+	border-style:solid;
+}
+
 #nav {
   background-color: #EDB8A5;
 }
